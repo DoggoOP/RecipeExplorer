@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/isitusnoamow.github.io/RecipeExplorer/static/css/main.ffc7f1ca.css",
+    "main.js": "/isitusnoamow.github.io/RecipeExplorer/static/js/main.dc04d059.js",
+    "static/js/787.83e023c0.chunk.js": "/isitusnoamow.github.io/RecipeExplorer/static/js/787.83e023c0.chunk.js",
+    "index.html": "/isitusnoamow.github.io/RecipeExplorer/index.html",
+    "main.ffc7f1ca.css.map": "/isitusnoamow.github.io/RecipeExplorer/static/css/main.ffc7f1ca.css.map",
+    "main.dc04d059.js.map": "/isitusnoamow.github.io/RecipeExplorer/static/js/main.dc04d059.js.map",
+    "787.83e023c0.chunk.js.map": "/isitusnoamow.github.io/RecipeExplorer/static/js/787.83e023c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffc7f1ca.css",
+    "static/js/main.dc04d059.js"
+  ]
+}
