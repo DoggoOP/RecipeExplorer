@@ -1,10 +1,3 @@
-### RecipeExplorer
-
-#### Description
-RecipeExplorer is an innovative web application designed to revolutionize the way you discover and explore recipes, utilizing advanced search filters and a user-friendly interface to cater to your culinary preferences.
-
-#### README
-
 # RecipeExplorer
 
 ## Introduction
