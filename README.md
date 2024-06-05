@@ -1,19 +1,17 @@
 # RecipeExplorer
 
 ## Introduction
-RecipeExplorer is a web application developed to enhance your cooking experience by providing an extensive collection of recipes that can be easily searched and filtered according to your preferences. Whether you're a novice cook or an experienced chef, RecipeExplorer aims to inspire and simplify your culinary adventures.
+RecipeExplorer is a web application designed to help users discover new and exciting recipes from different cuisines. By presenting recipes on flashcards, users can swipe left or right to decide if they want to save the dish for future reference, making culinary exploration fun and interactive.
 
 ## Features
-- **Advanced Search Filters:** Filter recipes based on ingredients, dietary restrictions, cuisine types, cooking time, and more.
-- **User-Friendly Interface:** Intuitive design makes it easy to navigate and find the perfect recipe.
-- **Detailed Recipe Information:** Each recipe includes detailed instructions, ingredient lists, and nutritional information.
-- **Personalized Recommendations:** Get personalized recipe suggestions based on your search history and preferences.
+- **Random Recipe Selection:** Utilizes an API to randomly select and display a dish from any cuisine.
+- **Swipe Interface:** Users can swipe left to dismiss a dish or swipe right to save the recipe and video link for later.
+- **Saved Recipes:** Recipes swiped right are saved for easy access and cooking instructions.
 
 ## Technologies Used
-- **Frontend:** ReactJS for building a responsive and interactive user interface.
-- **Backend:** Node.js and Express for handling API requests and managing data.
-- **Database:** MongoDB for storing recipe data.
-- **External APIs:** Integration with third-party recipe databases to provide a wide variety of options.
+- **Frontend:** ReactJS for building the user interface.
+- **Libraries:** Tindercard library for swipe functionality.
+- **APIs:** Integration with a recipe API to fetch random dishes.
 
 ## Getting Started
 To get started with RecipeExplorer, follow these steps:
@@ -30,24 +28,19 @@ To get started with RecipeExplorer, follow these steps:
    ```bash
    npm install
    ```
-4. **Set up environment variables:**
-   - Create a `.env` file in the root directory.
-   - Add your MongoDB connection string and any API keys required.
-
-5. **Start the development server:**
+4. **Start the development server:**
    ```bash
    npm start
    ```
-6. **Open your browser and navigate to:**
+5. **Open your browser and navigate to:**
    ```
    http://localhost:3000
    ```
 
 ## Usage
-- **Search Recipes:** Use the search bar to find recipes based on ingredients, dietary restrictions, or cuisine types.
-- **Filter Results:** Apply filters to narrow down search results according to your preferences.
-- **View Recipe Details:** Click on a recipe to view detailed instructions, ingredient lists, and nutritional information.
-- **Save Favorites:** Save your favorite recipes for quick access later.
+- **Explore Recipes:** Open the app to view a randomly selected dish.
+- **Swipe to Choose:** Swipe right to save the dish or left to dismiss it.
+- **View Saved Recipes:** Access your saved recipes with their detailed instructions and video links.
 
 ## Live Demo
 Users can use the app here: [RecipeExplorer](https://doggoop.github.io/RecipeExplorer/)
@@ -70,13 +63,13 @@ We welcome contributions from the community! To contribute to RecipeExplorer, pl
    ```
 5. **Open a pull request.**
 
+## Future Improvements
+- **Arrow Key Navigation:** Enable users to use arrow keys for swiping.
+- **Enhanced Filters:** Add options to filter recipes by dietary preferences and meal types.
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - Special thanks to all contributors and the open-source community for their valuable resources and support.
-- Inspiration for this project came from the desire to make cooking and recipe discovery easier and more enjoyable for everyone.
-
----
-
-Explore and enjoy the world of cooking with RecipeExplorer, where discovering your next favorite recipe is just a search away!
+- Inspiration for this project came from our love for discovering new recipes online.
